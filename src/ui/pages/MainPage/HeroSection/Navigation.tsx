@@ -4,7 +4,7 @@ import {
   MobileNavigationWrapper,
 } from "./HeroSectionStyles";
 import { NAV_DATA, NavDataProps } from "./NavData";
-import Menu from "../../../../assets/icons/menu.svg";
+import Menu from "../../../../assets/landing-page/icons/menu.svg";
 import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 import { useState } from "react";

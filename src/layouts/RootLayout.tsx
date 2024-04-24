@@ -1,4 +1,4 @@
-import "../assets/styles/globals.css";
+import "../assets/landing-page/styles/globals.css";
 
 export default function RootLayout({
   children,

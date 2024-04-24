@@ -15,15 +15,16 @@ import {
   TextContent,
 } from "./HeroSectionStyles";
 import Image from "next/image";
-import HeroImage from "../../../../assets/images/hero-image.png";
-import Contact from "../../../../assets/icons/contact.svg";
-import ScrollDown from "../../../../assets/icons/scroll-down.svg";
-import WhiteScrollDown from "../../../../assets/icons/White-Scroll-Down.svg";
+import HeroImage from "../../../../assets/landing-page/images/hero-image.png";
+import Contact from "../../../../assets/landing-page/icons/contact.svg";
+import ScrollDown from "../../../../assets/landing-page/icons/scroll-down.svg";
+import WhiteScrollDown from "../../../../assets/landing-page/icons/White-Scroll-Down.svg";
 import Link from "next/link";
 import { useMediaQuery } from "react-responsive";
 import TextLink from "../../../../ui/landing-page-components/TextLink";
 import TextBlock from "./TextBlock";
 import React from "react";
+import Logo from "../../../landing-page-components/Logo";
 
 const TEXT_CONTENT = [
   {
@@ -64,9 +65,7 @@ const HeroSection = () => {
       <div className="container">
         <BlockWrapper>
           <HeaderWrapper>
-            <Link href="/" className="logo">
-              antic
-            </Link>
+            <Logo color="#A06056" />
             <Navigation />
           </HeaderWrapper>
           <InfoWrapper>

@@ -1,5 +1,4 @@
 import RootLayout from "../../../layouts/RootLayout";
-
 import { MainPageWrapper } from "./MainPageStyles";
 import HeroSection from "./HeroSection";
 import TrendsSection from "./TrendsSection";

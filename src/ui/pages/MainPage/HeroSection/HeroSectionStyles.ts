@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const HeroWrapper = styled.section`
-  font-family: "Varta", sans-serif;
-  font-weight: 300;
   background-color: #f3eee8;
   position: relative;
   overflow-x: hidden;
@@ -76,14 +74,7 @@ export const HeaderWrapper = styled.header`
   gap: 30px;
   padding: 50px 0;
   position: relative;
-  .logo {
-    font-family: "Merriweather", serif;
-    font-size: 34px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 2px;
-    color: #a06056;
-  }
+
   @media (max-width: 1024px) {
     justify-content: space-between;
     padding: 50px 30px;
