@@ -11,7 +11,6 @@ import slide4 from "../../../../assets/landing-page/images/slider4.png";
 import slide5 from "../../../../assets/landing-page/images/slider5.png";
 import PrevIcon from "../../../../assets/landing-page/icons/prev.svg";
 import NextIcon from "../../../../assets/landing-page/icons/next.svg";
-import { useState } from "react";
 
 const SLIDES = [
   {

@@ -4,15 +4,14 @@ const ButtonWrapper = styled.button`
   cursor: pointer;
   border: none;
   outline: none;
-  width: (202px);
-  height: (60px);
-  top: 20px;
-  left: 20px;
+  max-width: 175px;
+  max-height: 60px;
   padding: 19px 51px 19px 51px;
   text-align: center;
   transition: all 0.3s linear;
   display: flex;
   justify-content: center;
+  align-items: center;
   white-space: nowrap;
   gap: 30px;
   &.default {
@@ -45,9 +44,14 @@ const ButtonWrapper = styled.button`
   &.cart {
     color: #6f6f6f;
     background-color: #fff;
+    padding: 10px 50px;
     &:hover {
       background-color: #f3f3f3;
     }
+  }
+  @media (max-width: 1024px) {
+    min-width: 120px;
+    padding: 10px;
   }
 `;
 

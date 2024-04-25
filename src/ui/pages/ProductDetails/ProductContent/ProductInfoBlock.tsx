@@ -3,6 +3,7 @@ import Image from "next/image";
 import StarIcon from "../../../../assets/details-page/icons/Star.svg";
 import Button from "../../../details-page-components/Button";
 import { ProductInfoWrapper } from "./ProductContentStyle";
+import { useMediaQuery } from "react-responsive";
 
 const SIZE = [
   {
@@ -33,6 +34,7 @@ const SIZE = [
 
 const ProductInfoBlock = () => {
   const rate = 4;
+  const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
 
   const [selectedSize, setSelectedSize] = useState(SIZE[0].size);
   const [quantity, setQuantity] = useState(1);
@@ -134,6 +136,30 @@ const ProductInfoBlock = () => {
           </div>
         </div>
       </div>
+      {isMobile && (
+        <div className="mobile-price-info">
+          <p className="price-info">USD(incl. of all taxes)</p>
+          <div className="flex">
+            <p className="price">$600.72</p>
+            <p className="old-price">$800.00</p>
+          </div>
+          <div className="flex">
+            <div className="quantity-wrapper">
+              <div onClick={handleDecrease}>-</div>
+              <div>{quantity}</div>
+              <div onClick={handleIncrease}>+</div>
+            </div>
+            <div className="flex">
+              <Button look="primary" type="button">
+                Buy now
+              </Button>
+              <Button look="secondary" type="button">
+                Add to cart
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </ProductInfoWrapper>
   );
 };

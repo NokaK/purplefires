@@ -4,6 +4,8 @@ import RootLayout from "../../../layouts/RootLayout";
 import { useMediaQuery } from "react-responsive";
 import MobileHeader from "./MobileHeader";
 import ProductContent from "./ProductContent";
+import ProductsDescription from "./ProductsDescription";
+import RelatedProducts from "./RelatedProducts";
 
 const ProductDetails = () => {
   const isMobile = useMediaQuery({ maxWidth: 1024 });
@@ -12,6 +14,8 @@ const ProductDetails = () => {
       <ProductDetailsContainer>
         {isMobile ? <MobileHeader /> : <DesktopHeader />}
         <ProductContent />
+        <ProductsDescription />
+        <RelatedProducts />
       </ProductDetailsContainer>
     </RootLayout>
   );

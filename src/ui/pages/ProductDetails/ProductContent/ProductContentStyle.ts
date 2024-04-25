@@ -58,9 +58,7 @@ export const ImagesWrapper = styled.div`
   display: flex;
   gap: 5px;
   overflow-x: hidden;
-  .images {
-    width: 152px !important;
-  }
+
   .main-image {
     background-color: #f1f1f1;
     width: 100%;
@@ -102,11 +100,10 @@ export const ImagesWrapper = styled.div`
       border: 1px solid #e73c17;
     }
   }
+
   @media (max-width: 1024px) {
     flex-direction: column-reverse;
-    .images {
-      width: initial !important;
-    }
+
     .main-image {
       background-color: #fff;
       height: 250px;
@@ -161,10 +158,11 @@ export const ProductInfoWrapper = styled.div`
         }
       }
     }
+
     .size-wrapper {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
+      gap: 5px;
       border-top: 1px solid #f0f0f0;
       border-bottom: 1px solid #f0f0f0;
       padding: 30px 0;
@@ -189,18 +187,18 @@ export const ProductInfoWrapper = styled.div`
         gap: 20px;
         align-items: flex-end;
         margin: 20px 0;
-
         .price {
-          color: #191919;
           font-size: 32px;
-          font-weight: 400;
-          line-height: 38.73px;
+          font-weight: 500;
+          line-height: 38.78px;
+          color: #191919;
         }
         .old-price {
-          color: #d9d9d9;
           font-size: 24px;
-          font-weight: 400;
-          line-height: 29.05px;
+          font-weight: 500;
+          line-height: 29.36px;
+          color: #d7d7d7;
+          text-decoration: line-through;
         }
       }
       .quantity-wrapper {
@@ -226,7 +224,56 @@ export const ProductInfoWrapper = styled.div`
       }
     }
   }
+
   @media (max-width: 1024px) {
+    .mobile-price-info {
+      width: 100%;
+      background-color: #fff;
+      padding: 20px 30px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      .flex {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .price {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.78px;
+        color: #191919;
+      }
+      .old-price {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.36px;
+        color: #d7d7d7;
+        text-decoration: line-through;
+      }
+      .quantity-wrapper {
+        display: flex;
+        border: 1px solid #f0f0f0;
+
+        > div {
+          height: 30px;
+          width: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 10px;
+          font-weight: 500;
+          line-height: 12.1px;
+          color: #191919;
+          border-right: 1px solid #f0f0f0;
+          cursor: pointer;
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+    }
     p {
       font-size: 10px;
     }
