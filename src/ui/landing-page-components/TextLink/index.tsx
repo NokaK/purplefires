@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Arrow from "../../../assets/landing-page/icons/arrow.svg";
+import Arrow from "../../../assets/landing-page/icons/arr.svg";
 import styled from "styled-components";
 
 const LinkWrapper = styled.span`
