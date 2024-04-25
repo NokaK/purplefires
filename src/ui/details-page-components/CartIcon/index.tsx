@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Cart from "../../../assets/details-page/icons/Cart.svg";
-import MobileCart from "../../../assets/details-page/icons/mobilecart.svg";
+import Cart from "../../../assets/details-page/icons/ct.svg";
+import MobileCart from "../../../assets/details-page/icons/mc.svg";
 import Image from "next/image";
 
 const CartIconWrapper = styled.div`

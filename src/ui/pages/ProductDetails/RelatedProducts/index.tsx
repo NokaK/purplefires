@@ -8,8 +8,8 @@ import slide1 from "../../../../assets/details-page/images/slider1.png";
 import Image from "next/image";
 import { Pagination } from "swiper/modules";
 import Button from "../../../details-page-components/Button";
-import CartIcon from "../../../../assets/details-page/icons/cart2.svg";
-import Heart from "../../../../assets/details-page/icons/filledheart.svg";
+import CartIcon from "../../../../assets/details-page/icons/ct2.svg";
+import Heart from "../../../../assets/details-page/icons/fh.svg";
 const SLIDES = [
   {
     id: 1,
