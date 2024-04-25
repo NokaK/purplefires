@@ -2,7 +2,7 @@ import Link from "next/link";
 import Logo from "../../../landing-page-components/Logo";
 import { FooterWrapper, FlexWrapper, BottomWrapper } from "./FooterStyles";
 import Image from "next/image";
-import Planet from "../../../../assets/landing-page/images/footer-picture.png";
+import Planet from "../../../../assets/landing-page/images/footerpicture.png";
 import Facebook from "../../../../assets/landing-page/icons/facebook.svg";
 import Instagram from "../../../../assets/landing-page/icons/instagram.svg";
 import Twitter from "../../../../assets/landing-page/icons/twitter.svg";
