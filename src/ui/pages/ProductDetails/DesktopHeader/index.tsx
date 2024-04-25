@@ -11,10 +11,10 @@ import { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../../assets/details-page/icons/logo.svg";
 import Input from "../../../details-page-components/Input";
-import SearchIcon from "../../../../assets/details-page/icons/search.svg";
-import HeartIcon from "../../../../assets/details-page/icons/heart.svg";
-import MenuIcon from "../../../../assets/details-page/icons/menu.svg";
-import ChatIcon from "../../../../assets/details-page/icons/chat.svg";
+import SearchIcon from "../../../../assets/details-page/icons/srch.svg";
+import HeartIcon from "../../../../assets/details-page/icons/hrt.svg";
+import MenuIcon from "../../../../assets/details-page/icons/mn.svg";
+import ChatIcon from "../../../../assets/details-page/icons/cht.svg";
 import CartIcon from "../../../details-page-components/CartIcon";
 const LANGUAGES = [
   { value: "en", label: "EN" },

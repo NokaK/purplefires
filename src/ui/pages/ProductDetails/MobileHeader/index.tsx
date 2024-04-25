@@ -1,11 +1,11 @@
 import { MobileHeaderContainer } from "./MobileHeaderStyles";
-import BurgerIcon from "../../../../assets/details-page/icons/burger-icon.svg";
+import BurgerIcon from "../../../../assets/details-page/icons/burgericon.svg";
 import Logo from "../../../../assets/details-page/icons/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
-import SearchIcon from "../../../../assets/details-page/icons/Black-search.svg";
-import HeartIcon from "../../../../assets/details-page/icons/Mobile-Heart.svg";
-import ProfileIcon from "../../../../assets/details-page/icons/profile.svg";
+import SearchIcon from "../../../../assets/details-page/icons/black-search.svg";
+import HeartIcon from "../../../../assets/details-page/icons/mobileheart.svg";
+import ProfileIcon from "../../../../assets/details-page/icons/pf.svg";
 import CartIcon from "../../../details-page-components/CartIcon";
 
 const MobileHeader = () => {
