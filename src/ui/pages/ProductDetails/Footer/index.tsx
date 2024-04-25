@@ -1,12 +1,12 @@
 import { FooterWrapper } from "./FooterStyles";
 import Facebook from "../../../../assets/details-page/icons/fb.svg";
-import Whatsapp from "../../../../assets/details-page/icons/Whatsapp.svg";
+import Whatsapp from "../../../../assets/details-page/icons/wa.svg";
 import Instagram from "../../../../assets/details-page/icons/ig.svg";
 import Youtube from "../../../../assets/details-page/icons/tb.svg";
 import Image from "next/image";
 import Link from "next/link";
-import Location from "../../../../assets/details-page/icons/Location.svg";
-import Phone from "../../../../assets/details-page/icons/Mobile.svg";
+import Location from "../../../../assets/details-page/icons/lc.svg";
+import Phone from "../../../../assets/details-page/icons/mb.svg";
 
 const Footer = () => {
   return (

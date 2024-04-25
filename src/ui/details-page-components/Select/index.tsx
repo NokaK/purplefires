@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import WhiteArrow from "../../../assets/details-page/icons/White-arrow-down.svg";
-import BlackArrow from "../../../assets/details-page/icons/Black-arrow-down.svg";
+import WhiteArrow from "../../../assets/details-page/icons/wad.svg";
+import BlackArrow from "../../../assets/details-page/icons/bad.svg";
 import Image from "next/image";
 
 import styled from "styled-components";
