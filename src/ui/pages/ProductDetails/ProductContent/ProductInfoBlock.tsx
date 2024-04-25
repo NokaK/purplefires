@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import StarIcon from "../../../../assets/details-page/icons/Star.svg";
+import StarIcon from "../../../../assets/details-page/icons/st.svg";
 import Button from "../../../details-page-components/Button";
 import { ProductInfoWrapper } from "./ProductContentStyle";
 import { useMediaQuery } from "react-responsive";
