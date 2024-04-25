@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Cart from "../../../assets/details-page/icons/Cart.svg";
-import MobileCart from "../../../assets/details-page/icons/Mobile-cart.svg";
+// import MobileCart from "../../../assets/details-page/icons/Mobile-cart.svg";
 import Image from "next/image";
 
 const CartIconWrapper = styled.div`
@@ -24,13 +24,13 @@ const CartIconWrapper = styled.div`
 const CartIcon = ({ size }: { size: number }) => {
   return (
     <CartIconWrapper>
-      <Image
+      {/* <Image
         src={size === 20 ? MobileCart : Cart}
         alt="cart"
         width={size}
         height={size}
         layout="fixed"
-      />
+      /> */}
     </CartIconWrapper>
   );
 };
