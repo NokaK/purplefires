@@ -6,6 +6,8 @@ import MobileHeader from "./MobileHeader";
 import ProductContent from "./ProductContent";
 import ProductsDescription from "./ProductsDescription";
 import RelatedProducts from "./RelatedProducts";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 
 const ProductDetails = () => {
   const isMobile = useMediaQuery({ maxWidth: 1024 });
@@ -16,6 +18,8 @@ const ProductDetails = () => {
         <ProductContent />
         <ProductsDescription />
         <RelatedProducts />
+        <Subscribe />
+        <Footer />
       </ProductDetailsContainer>
     </RootLayout>
   );

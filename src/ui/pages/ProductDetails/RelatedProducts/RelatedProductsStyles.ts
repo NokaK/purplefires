@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const RelatedProductsWrapper = styled.div`
-  padding: 50px 0;
+  padding-bottom: 50px;
   h2 {
     text-align: center;
     font-size: 32px;
@@ -41,16 +41,32 @@ export const RelatedProductsWrapper = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        img {
-          height: 100% !important;
-          width: 100% !important;
-          object-fit: contain;
+        .image {
+          img {
+            height: 100% !important;
+            width: 100% !important;
+            object-fit: contain;
+          }
         }
+
         .button-wrapper {
           position: absolute;
           bottom: 50px;
           left: 50%;
           transform: translateX(-50%);
+        }
+        .favorite {
+          width: 60px;
+          height: 60px;
+          border: 1px solid #d7d7d7;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          position: absolute;
+          right: 20px;
+          top: 20px;
+          z-index: 10;
         }
       }
       h6 {
@@ -80,15 +96,76 @@ export const RelatedProductsWrapper = styled.div`
     }
   }
   @media (max-width: 768px) {
+    h2 {
+      font-size: 18px;
+      line-height: 21.78px;
+    }
     .swiper {
+      margin-top: 30px;
       .swiper-slide {
-        width: 132px !important;
-        height: 186px !important;
+        width: 150px !important;
+        height: 230px !important;
+        h6 {
+          font-size: 11px;
+          margin: 5px 0;
+        }
+        .price {
+          font-size: 12px;
+        }
+        .card {
+          .favorite {
+            width: 20px;
+            height: 20px;
+            right: 10px;
+            top: 10px;
+            img {
+              width: 10px !important;
+              height: 12px !important;
+            }
+          }
+          .button-wrapper {
+            bottom: 20px;
+            button {
+              padding: 10px;
+            }
+          }
+        }
       }
       .swiper-pagination-bullet {
         width: 6px;
         height: 6px;
       }
     }
+  }
+`;
+
+export const Tag = styled.div`
+  border-radius: 100px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  &.new {
+    background-color: #12a05c;
+  }
+  &.sale {
+    background-color: #e73c17;
+  }
+  &.hot {
+    background-color: #ff9900;
+  }
+  &.warranty {
+    background-color: #7f7cf6;
+  }
+  @media (max-width: 768px) {
+    padding: 0 5px;
+    top: 10px;
+    left: 10px;
+    font-size: 6px;
   }
 `;

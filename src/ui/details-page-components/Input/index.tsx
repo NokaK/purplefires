@@ -31,6 +31,13 @@ export const InputWrapper = styled.div`
     outline: none;
     border: transparent;
   }
+  @media (max-width: 768px) {
+    min-width: 200px;
+    input {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
 `;
 
 interface InputProps {
@@ -39,12 +46,21 @@ interface InputProps {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   type: string;
   name: string;
+  background?: string;
 }
 
-const Input = ({ placeholder, type, value, onChange, name }: InputProps) => {
+const Input = ({
+  placeholder,
+  type,
+  value,
+  onChange,
+  name,
+  background,
+}: InputProps) => {
   return (
     <InputWrapper>
       <input
+        style={{ background: background }}
         className={`${value && "focus"}`}
         type={type}
         onChange={onChange}

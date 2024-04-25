@@ -49,6 +49,10 @@ const ButtonWrapper = styled.button`
       background-color: #f3f3f3;
     }
   }
+  &.subscribed {
+    background-color: #191919;
+    color: #fff;
+  }
   @media (max-width: 1024px) {
     min-width: 120px;
     padding: 10px;
@@ -57,7 +61,7 @@ const ButtonWrapper = styled.button`
 
 interface ButtonProps {
   type: "button" | "submit";
-  look: "default" | "primary" | "secondary" | "cart";
+  look: "default" | "primary" | "secondary" | "cart" | "subscribed";
   onClick?: () => void | undefined;
   children: React.ReactNode;
   className?: string;

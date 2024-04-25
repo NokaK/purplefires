@@ -33,6 +33,7 @@ export const ProductDescriptionWrapper = styled.div`
     line-height: 21.78px;
   }
   @media (max-width: 768px) {
+    padding: 0;
     .tabs {
       .wrapper {
         gap: 50px;

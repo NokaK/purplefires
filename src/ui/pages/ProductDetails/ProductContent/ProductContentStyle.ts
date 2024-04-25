@@ -47,7 +47,7 @@ export const ProductContentWrapper = styled.div`
     gap: 20px;
   }
   @media (max-width: 1024px) {
-    padding: 30px 0;
+    padding: 30px 0 0;
     .grid-wrapper {
       grid-template-columns: 1fr;
     }
