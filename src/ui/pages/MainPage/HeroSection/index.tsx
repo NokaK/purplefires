@@ -16,9 +16,9 @@ import {
 } from "./HeroSectionStyles";
 import Image from "next/image";
 import HeroImage from "../../../../assets/landing-page/images/hero-image.png";
-import Contact from "../../../../assets/landing-page/icons/contact.svg";
-import ScrollDown from "../../../../assets/landing-page/icons/scroll-down.svg";
-import WhiteScrollDown from "../../../../assets/landing-page/icons/white-scroll-down.svg";
+import Contact from "../../../../assets/landing-page/icons/ct.svg";
+import ScrollDown from "../../../../assets/landing-page/icons/sd.svg";
+import WhiteScrollDown from "../../../../assets/landing-page/icons/wsd.svg";
 import { useMediaQuery } from "react-responsive";
 import TextLink from "../../../../ui/landing-page-components/TextLink";
 import TextBlock from "./TextBlock";
