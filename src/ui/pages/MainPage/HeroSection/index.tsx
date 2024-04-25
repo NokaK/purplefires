@@ -19,7 +19,6 @@ import HeroImage from "../../../../assets/landing-page/images/hero-image.png";
 import Contact from "../../../../assets/landing-page/icons/contact.svg";
 import ScrollDown from "../../../../assets/landing-page/icons/scroll-down.svg";
 import WhiteScrollDown from "../../../../assets/landing-page/icons/White-Scroll-Down.svg";
-import Link from "next/link";
 import { useMediaQuery } from "react-responsive";
 import TextLink from "../../../../ui/landing-page-components/TextLink";
 import TextBlock from "./TextBlock";
