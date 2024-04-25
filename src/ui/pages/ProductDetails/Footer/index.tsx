@@ -1,8 +1,8 @@
 import { FooterWrapper } from "./FooterStyles";
-import Facebook from "../../../../assets/details-page/icons/Facebook.svg";
+import Facebook from "../../../../assets/details-page/icons/fb.svg";
 import Whatsapp from "../../../../assets/details-page/icons/Whatsapp.svg";
-import Instagram from "../../../../assets/details-page/icons/Instagram.svg";
-import Youtube from "../../../../assets/details-page/icons/Youtube.svg";
+import Instagram from "../../../../assets/details-page/icons/ig.svg";
+import Youtube from "../../../../assets/details-page/icons/tb.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Location from "../../../../assets/details-page/icons/Location.svg";
@@ -147,11 +147,6 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>{" "}
-              <li>
-                <Link href="/" className="text">
-                  Contact
-                </Link>
-              </li>
             </ul>
           </div>
 

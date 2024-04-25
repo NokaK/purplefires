@@ -9,8 +9,8 @@ import slide2 from "../../../../assets/landing-page/images/slider2.png";
 import slide3 from "../../../../assets/landing-page/images/slider3.png";
 import slide4 from "../../../../assets/landing-page/images/slider4.png";
 import slide5 from "../../../../assets/landing-page/images/slider5.png";
-import PrevIcon from "../../../../assets/landing-page/icons/prev.svg";
-import NextIcon from "../../../../assets/landing-page/icons/next.svg";
+import PrevIcon from "../../../../assets/landing-page/icons/pr.svg";
+import NextIcon from "../../../../assets/landing-page/icons/nx.svg";
 
 const SLIDES = [
   {
