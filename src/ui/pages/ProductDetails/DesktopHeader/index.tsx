@@ -185,13 +185,13 @@ const NavigationBlock = () => {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_36_750)">
+                  <g clipPath="url(#clip0_36_750)">
                     <path
                       d="M5 7.5L10 12.5L15 7.5"
                       stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                   <defs>
