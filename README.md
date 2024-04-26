@@ -1,5 +1,4 @@
 
-## purplefires-challenge
 
 ## Description
 This project consists of two interconnected pages: a landing page and a details page. Clicking any link on the landing page navigates to the details page, and vice versa, creating a seamless user experience.
